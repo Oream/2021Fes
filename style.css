@@ -18,7 +18,7 @@ nav a:hover{
     background-color: darksalmon;
 }
 .palagraph1{
-    width: 50vw;
+    width: 500px;
     margin: auto;
 }
 .rightning {
@@ -27,4 +27,12 @@ nav a:hover{
 }
 .mainpage{
     font-size:18px;
+}
+.palagraph1 h1{
+    font-family: "Monotype Corsiva";
+    text-align: center;
+    color:black;
+    padding: 0.5em 0;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
 }
