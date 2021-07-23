@@ -120,7 +120,7 @@ header nav a:hover{
     transition: .5s;
 }
 .drawer-content li{
-    width: 75%;
+    width: 100%;
     margin:auto;
     margin-left:0;
 }
