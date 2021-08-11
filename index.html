@@ -6,7 +6,18 @@
         <link rel="stylesheet" href="style.css">
         <title>◆Oream◇</title>
     </head>
+    <script>
+    window.onload = function() {
+        const loader_element = document.getElementById('loader_wrap');
+        window.setTimeout(function() {
+            loader_element.classList.add('loaded');
+        }, 1000);
+    };
+    </script>
     <body>
+        <div id="loader_wrap">
+            <div class="loader"></div>
+        </div>
         <header class="header">
             <div class="logo"><a href="https://oream.github.io/2021Fes/">◆Oream ◇</a></div><!-- /.logo -->
 
